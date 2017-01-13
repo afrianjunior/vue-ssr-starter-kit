@@ -1,3 +1,6 @@
+![alt text][logo]
+
+[logo]: logo.png "Vue SSR"
 # Vue 2 Starter Kit Server Side Rendering
 
 First of all
