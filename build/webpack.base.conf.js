@@ -39,9 +39,9 @@ module.exports = {
     ]
   },
   plugins: [
-    new webpack.NormalModuleReplacementPlugin(/element-ui[\/\\]lib[\/\\]locale[\/\\]lang[\/\\]zh-CN/, 'element-ui/lib/locale/lang/en'),
     new webpack.ProvidePlugin({
       Vue: 'vue',
+      Axios: 'axios'
     }),
     new webpack.LoaderOptionsPlugin({
       vue: vueConfig
