@@ -1,4 +1,7 @@
 process.env.VUE_ENV = 'server'
+process.env.BASE_URL_ENV = 'base url API'
+process.env.USERNAME_AUTH_ENV = 'username auth'
+process.env.PASSWORD_AUTH_ENV = 'password auth'
 const isProd = process.env.NODE_ENV === 'production'
 
 const fs = require('fs')
