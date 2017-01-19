@@ -1,6 +1,16 @@
 const webpack = require('webpack')
 const path = require('path')
+const config = require('../config.js')
 const vueConfig = require('./vue-loader.config')
+
+process.env.USERNAME_ENV = config.username
+process.env.PASSWORD_ENV = config.password
+
+if(config.isDev) {
+  process.env.BASE_URL_ENV = config.APIDev
+} else {
+  process.env.BASE_URL_ENV = config.APIProd
+}
 
 module.exports = {
   devtool: '#source-map',
