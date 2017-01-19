@@ -10,6 +10,22 @@ Please Install:
 - NPM `v2.10.x`
 - Webpack Global `v1.13.x`
 
+## change config.js.env to config.js
+
+and setup your API
+
+``` javascript
+
+const config = {
+  isDev: true,
+  username: '', // your username API
+  password: '', // your password API
+  APIDev: '', // your base URL API development
+  APIProd: '' //your base URL API production
+}
+
+```
+
 ## Run this app
 
 ``` bash
