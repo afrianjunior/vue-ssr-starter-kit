@@ -9,7 +9,10 @@ const config = Object.assign({}, base, {
       filename: 'client-vendor-bundle.js'
     }),
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development')
+      'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'development'),
+      'process.env.BASE_URL_ENV': JSON.stringify(process.env.BASE_URL_ENV || 'base url API'),
+      'process.env.USERNAME_ENV': JSON.stringify(process.env.USERNAME_ENV || 'username auth'),
+      'process.env.PASSWORD_ENV': JSON.stringify(process.env.PASSWORD_ENV || 'password auth')
     })
   ])
 })
