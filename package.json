@@ -12,7 +12,7 @@
     "build:server": "cross-env NODE_ENV=production webpack --config build/webpack.server.conf.js --progress --hide-modules"
   },
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios-es6": "^0.11.1",
     "chance": "1.0.4",
     "es6-promise": "3.2.1",
     "express": "4.14.0",
