@@ -51,7 +51,8 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       Vue: 'vue',
-      Axios: 'axios-es6'
+      Axios: 'axios-es6',
+      Vuetify: 'vuetify'
     }),
     new webpack.LoaderOptionsPlugin({
       vue: vueConfig
