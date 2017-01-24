@@ -4,7 +4,9 @@ import { sync } from 'vuex-router-sync'
 import store from './store'
 import router from './router'
 import auth from './auth'
+import vuetify from 'vuetify'
 
+Vue.use(vuetify)
 
 sync(store, router, auth)
 
