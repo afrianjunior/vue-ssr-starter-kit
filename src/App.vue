@@ -5,9 +5,13 @@
 </template>
 
 <script>
-  export default {}
+  export default {
+    mounted () {
+      this.$vuetify.init()
+    }
+  }
 </script>
 
 <style>
-  
+  @import url('https://unpkg.com/vuetify/dist/vuetify.min.css');
 </style>
