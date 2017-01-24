@@ -8,6 +8,7 @@
           <a href="https://github.com/afrianjunior" target="_blank">Github</a>
           <a href="https://github.com/afrianjunior/CSS-kit" target="_blank">CSS Kit</a>
         </div>
+        <v-progress-linear v-bind:indeterminate="true" success></v-progress-linear>
       </div>
     </div>
   </div>
@@ -55,7 +56,7 @@
 
   .opening__box > .opening__suggest {
     font-family: 'Open Sans', sans-serif;
-    margin: 1em 0;
+    margin: 1em 0 2em 0;
     font-size: 16px;
   }
 
