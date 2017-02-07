@@ -1,6 +1,5 @@
-![alt text][logo]
+<p align="center"><img src="https://github.com/afrianjunior/vue2-ssr-starter-kit/raw/develop/logo.png"></p>
 
-[logo]: logo.png "Vue SSR"
 # Vue 2 Starter Kit Server Side Rendering
 
 First of all
